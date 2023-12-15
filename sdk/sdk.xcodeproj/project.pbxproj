@@ -48,9 +48,9 @@
 		7B76813B24A3FA6B00E92050 /* display.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B76813524A3FA6B00E92050 /* display.cc */; };
 		7B76813C24A3FA6B00E92050 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B76813624A3FA6B00E92050 /* main.cc */; };
 		7B76813D24A3FA6B00E92050 /* math_tools.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B76813724A3FA6B00E92050 /* math_tools.cc */; };
-		8D4E78C36D67D333E11EC9B7 /* libPods-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7611DFF09FCD556F771380 /* libPods-sdk.a */; };
 		E01C984226B44A72001BB0E3 /* cardboard_display_api.cc in Sources */ = {isa = PBXBuildFile; fileRef = E01C984026B44A71001BB0E3 /* cardboard_display_api.cc */; };
 		E0DFCFED26B3474400F285A5 /* cardboard_input_api.cc in Sources */ = {isa = PBXBuildFile; fileRef = E0DFCFEC26B3474400F285A5 /* cardboard_input_api.cc */; };
+		E28BCCA22B2D119A00E862E0 /* libProtobuf-C++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28BCCA12B2D119A00E862E0 /* libProtobuf-C++.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -176,6 +176,7 @@
 		E01C984126B44A71001BB0E3 /* cardboard_display_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardboard_display_api.h; sourceTree = "<group>"; };
 		E0DFCFEB26B3474400F285A5 /* cardboard_input_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardboard_input_api.h; sourceTree = "<group>"; };
 		E0DFCFEC26B3474400F285A5 /* cardboard_input_api.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardboard_input_api.cc; sourceTree = "<group>"; };
+		E28BCCA12B2D119A00E862E0 /* libProtobuf-C++.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libProtobuf-C++.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,9 +184,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28BCCA22B2D119A00E862E0 /* libProtobuf-C++.a in Frameworks */,
 				0FECE29825BB2760009C662C /* Metal.framework in Frameworks */,
 				0FECE29A25BB276D009C662C /* MetalKit.framework in Frameworks */,
-				8D4E78C36D67D333E11EC9B7 /* libPods-sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +242,7 @@
 		0FD201F223575B8000B3C342 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E28BCCA12B2D119A00E862E0 /* libProtobuf-C++.a */,
 				0FECE29925BB276D009C662C /* MetalKit.framework */,
 				0FECE29725BB2760009C662C /* Metal.framework */,
 				AE7611DFF09FCD556F771380 /* libPods-sdk.a */,

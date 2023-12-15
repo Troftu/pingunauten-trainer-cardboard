@@ -710,7 +710,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C5M9TX4B3U;
+				DEVELOPMENT_TEAM = RFC99BX6G7;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = "";
@@ -731,7 +731,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = GfxPluginCardboard;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -742,7 +742,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C5M9TX4B3U;
+				DEVELOPMENT_TEAM = RFC99BX6G7;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = "";
@@ -762,7 +762,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = GfxPluginCardboard;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

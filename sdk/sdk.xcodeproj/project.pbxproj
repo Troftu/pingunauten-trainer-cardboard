@@ -48,6 +48,7 @@
 		7B76813B24A3FA6B00E92050 /* display.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B76813524A3FA6B00E92050 /* display.cc */; };
 		7B76813C24A3FA6B00E92050 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B76813624A3FA6B00E92050 /* main.cc */; };
 		7B76813D24A3FA6B00E92050 /* math_tools.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B76813724A3FA6B00E92050 /* math_tools.cc */; };
+		8D4E78C36D67D333E11EC9B7 /* libPods-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7611DFF09FCD556F771380 /* libPods-sdk.a */; };
 		E01C984226B44A72001BB0E3 /* cardboard_display_api.cc in Sources */ = {isa = PBXBuildFile; fileRef = E01C984026B44A71001BB0E3 /* cardboard_display_api.cc */; };
 		E0DFCFED26B3474400F285A5 /* cardboard_input_api.cc in Sources */ = {isa = PBXBuildFile; fileRef = E0DFCFEC26B3474400F285A5 /* cardboard_input_api.cc */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		0F6BA71E25CC53E100C1B015 /* opengl_es3_renderer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opengl_es3_renderer.cc; sourceTree = "<group>"; };
 		0F6BA72325CC5B7D00C1B015 /* metal_renderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = metal_renderer.mm; sourceTree = "<group>"; };
 		0F984F7925C047860033D5C6 /* metal_distortion_renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = metal_distortion_renderer.mm; sourceTree = "<group>"; };
+		0FAFDD9E7E36356CB6732DCB /* Pods-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sdk.debug.xcconfig"; path = "Target Support Files/Pods-sdk/Pods-sdk.debug.xcconfig"; sourceTree = "<group>"; };
 		0FD200852357511E00B3C342 /* GfxPluginCardboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = GfxPluginCardboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD201FA23575F3A00B3C342 /* screen_params.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = screen_params.mm; sourceTree = "<group>"; };
 		0FD201FB23575F3A00B3C342 /* lens_distortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lens_distortion.h; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		0FECE29925BB276D009C662C /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/iOSSupport/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		0FEDA004283670070023E8C8 /* nsurl_session_data_handler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = nsurl_session_data_handler.mm; sourceTree = "<group>"; };
 		0FEDA005283670070023E8C8 /* nsurl_session_data_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsurl_session_data_handler.h; sourceTree = "<group>"; };
+		477AF15D786A5A214446CE0D /* Pods-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sdk.release.xcconfig"; path = "Target Support Files/Pods-sdk/Pods-sdk.release.xcconfig"; sourceTree = "<group>"; };
 		7B2ADAC924E4779500FEBAA8 /* opengl_es2_distortion_renderer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opengl_es2_distortion_renderer.cc; sourceTree = "<group>"; };
 		7B76813424A3FA6B00E92050 /* input.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = input.cc; sourceTree = "<group>"; };
 		7B76813524A3FA6B00E92050 /* display.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = display.cc; sourceTree = "<group>"; };
@@ -168,6 +171,7 @@
 		7B76815224A3FA8100E92050 /* IUnityXRInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUnityXRInput.h; sourceTree = "<group>"; };
 		7B76815324A3FA8100E92050 /* IUnityGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUnityGraphics.h; sourceTree = "<group>"; };
 		7B76815424A3FA8100E92050 /* IUnityGraphicsD3D9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUnityGraphicsD3D9.h; sourceTree = "<group>"; };
+		AE7611DFF09FCD556F771380 /* libPods-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01C984026B44A71001BB0E3 /* cardboard_display_api.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardboard_display_api.cc; sourceTree = "<group>"; };
 		E01C984126B44A71001BB0E3 /* cardboard_display_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardboard_display_api.h; sourceTree = "<group>"; };
 		E0DFCFEB26B3474400F285A5 /* cardboard_input_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardboard_input_api.h; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 			files = (
 				0FECE29825BB2760009C662C /* Metal.framework in Frameworks */,
 				0FECE29A25BB276D009C662C /* MetalKit.framework in Frameworks */,
+				8D4E78C36D67D333E11EC9B7 /* libPods-sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +226,7 @@
 				0FD201FC23575F3A00B3C342 /* util */,
 				0FD200862357511E00B3C342 /* Products */,
 				0FD201F223575B8000B3C342 /* Frameworks */,
+				3175DAD2183AB977B7B4DA6D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -237,6 +243,7 @@
 			children = (
 				0FECE29925BB276D009C662C /* MetalKit.framework */,
 				0FECE29725BB2760009C662C /* Metal.framework */,
+				AE7611DFF09FCD556F771380 /* libPods-sdk.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -381,6 +388,16 @@
 			path = xr_unity_plugin;
 			sourceTree = "<group>";
 		};
+		3175DAD2183AB977B7B4DA6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFDD9E7E36356CB6732DCB /* Pods-sdk.debug.xcconfig */,
+				477AF15D786A5A214446CE0D /* Pods-sdk.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		7B2ADAC824E4779500FEBAA8 /* rendering */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +459,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FD2008E2357511E00B3C342 /* Build configuration list for PBXNativeTarget "sdk" */;
 			buildPhases = (
+				34C1822FC5FA49921029E4DB /* [CP] Check Pods Manifest.lock */,
 				0FD200812357511E00B3C342 /* Sources */,
 				0FD200822357511E00B3C342 /* Frameworks */,
 				0FD200832357511E00B3C342 /* CopyFiles */,
@@ -485,6 +503,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34C1822FC5FA49921029E4DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FD200812357511E00B3C342 /* Sources */ = {
@@ -661,6 +704,7 @@
 		};
 		0FD2008F2357511E00B3C342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAFDD9E7E36356CB6732DCB /* Pods-sdk.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
@@ -692,6 +736,7 @@
 		};
 		0FD200902357511E00B3C342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477AF15D786A5A214446CE0D /* Pods-sdk.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;

@@ -34,7 +34,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.vision.MultiProcessor;
@@ -77,20 +79,13 @@ public class QrCodeCaptureActivity extends AppCompatActivity
     super.onCreate(icicle);
     setContentView(R.layout.qr_code_capture);
 
-    // Adds margins to the container to account for edge to edge:
-    // https://developer.android.com/develop/ui/views/layout/edge-to-edge
-    View container = findViewById(R.id.container);
-    ViewCompat.setOnApplyWindowInsetsListener(
-        container,
-        (v, windowInsets) -> {
-          Insets insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars());
-          ViewGroup.MarginLayoutParams mlp = (ViewGroup.MarginLayoutParams) v.getLayoutParams();
-          mlp.leftMargin = insets.left;
-          mlp.bottomMargin = insets.bottom;
-          mlp.rightMargin = insets.right;
-          v.setLayoutParams(mlp);
-          return WindowInsetsCompat.CONSUMED;
-        });
+    // Hide system bars
+    WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
+    WindowInsetsControllerCompat windowInsetsController =
+        new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
+    windowInsetsController.hide(WindowInsetsCompat.Type.systemBars());
+    windowInsetsController.setSystemBarsBehavior(
+        WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
 
     cameraSourcePreview = findViewById(R.id.preview);
   }
